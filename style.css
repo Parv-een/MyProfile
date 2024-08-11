@@ -1,0 +1,22 @@
+:root {
+    color: rgb(24, 9, 2);
+}
+
+img{
+    height: 500px;
+
+    width: 350px;
+
+
+}
+h1{ 
+    color: aquamarine;
+}
+table{
+    border: 2px Solid;
+    width: 600px;
+}
+body{
+    background-color:aliceblue;
+    margin: auto;
+}
