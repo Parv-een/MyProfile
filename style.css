@@ -1,22 +1,107 @@
 :root {
     color: rgb(24, 9, 2);
+    
+}
+html {
+    height: 100%;
+    width: 100%;
+
 }
 
 img{
-    height: 500px;
-
+    height: 350px;
     width: 350px;
+    border-radius: 50%;
 
 
 }
 h1{ 
-    color: aquamarine;
+    color: rgb(197, 127, 255);
 }
-table{
+table th, td{
     border: 2px Solid;
     width: 600px;
 }
 body{
     background-color:aliceblue;
     margin: auto;
+}
+.section_title{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+/* #experience_section{ 
+    background-color: var(--light-gray);
+    display:flex;
+    text-align: justify;
+    font-size: 15px;
+   
+}  */
+
+/* .section_title img{
+    height:350px;
+    border-radius: 50%;
+    flex-direction: row; 
+
+} */
+.hide {
+    display: none;
+}
+
+#modal{
+    position: absolute;
+    width: 100%;
+    height: 700%;
+    background-color: rgba(0,0,0,0.5);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    padding: 0%;
+    margin: 0%;
+}
+#modal_card {
+    position: absolute;
+    height: 11%;
+    width:80%;
+    background-color:white;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: auto;
+    top: 50%;
+    z-index: 4;
+    
+
+}
+
+#close_modal {
+    cursor:pointer;
+    font-size: 25px;
+    text-align: right !important;
+}
+
+#close_modal:hover {
+    color:red;
+    
+}
+
+#modal_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap :30px;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: var(--light-gray);
+    height: 10%;
 }
