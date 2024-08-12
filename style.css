@@ -56,12 +56,12 @@ table th, td{
 }
 
 #project_section{
-flex-direction: column;
+flex-direction: row;
 
 }
 
 
-project_section ul {
+#project_section ul {
     display:flex;
     flex-direction: row;
 }
