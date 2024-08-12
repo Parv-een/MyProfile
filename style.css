@@ -2,16 +2,42 @@
     color: rgb(24, 9, 2);
     
 }
-html {
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* html {
     height: 100%;
     width: 100%;   
 
+} */
+
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow-x: hidden;
+    background-color:aliceblue;
+    
+}
+
+
+main {
+    height: 70%;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
  div img{
     height: 350px; 
     width: 350px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 
 
 }
@@ -22,10 +48,7 @@ table th, td{
     border: 2px Solid;
     width: 600px;
 }
-body{
-    background-color:aliceblue;
-    margin: auto;
-}
+
 .section_title{
     text-align: center;
     margin: 0px;
